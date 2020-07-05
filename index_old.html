@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+</head>
+
+
+<body>
+
+    <!-- navbar -->
+    <section id="nav-bar">
+
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" class="logoset"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">個人簡介</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">作品集</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+    </section>
+
+
+
+    <!-- banner -->
+    <section id="banner">
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md">
+                        <p class="promo-title">Hello!</p>
+                        <p class="title-text">Welcome to Annie’s portfolio</p>
+                    </div>
+                </div>
+    </section>
+
+    <!-- about -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="./img/photo.png" alt="">
+                </div>
+                <div class="col-md-6">
+                    <h4>李安妮</h4>
+                    <p>1998/12/15</p>
+                    <p>4A61c079@stust.edu.tw</p>
+                    <p>南臺科技大學 創音產品設計系</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- project -->
+    <section id="project" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./img/pot_01.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>鍋智佳</h4>
+                        <p class="text-muted">高齡者智能鍋具</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./img/pen_01.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>好肌乎</h4>
+                        <p class="text-muted">AI皮膚病症檢測筆</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="./img/train_01.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>台鐵售票系統</h4>
+                        <p class="text-muted">介面優化設計</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>鍋智佳</h2>
+                                <p class="item-intro text-muted">高齡智慧鍋具</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/01x.jpg" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <p><strong>You can download this PSD Mockup template in this portfolio sample item
+                                        at</strong> <a target="_blank"
+                                        href="https://www.behance.net/gallery/37627001/iPhone-6s-Space-Gray-mockups-FREEBIE">Mockup</a>
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2016</li>
+                                    <li><b>Author:</b> <a target="_blank" href="http://360mockups.com/">360 Mockups</a>
+                                    </li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                        class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Project Heading</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/02x.jpg" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <p><strong>You can download this PSD Mockup template in this portfolio sample item
+                                        at</strong> <a target="_blank"
+                                        href="http://freebiesbug.com/psd-freebies/app-showcase-mockup-psd/">Mockup</a>
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2016</li>
+                                    <li><b>Author:</b> <a target="_blank" href="https://dribbble.com/ikima">Vitaly</a>
+                                    </li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                        class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/03x.jpg" alt="">
+                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt
+                                    repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae,
+                                    nostrum, reiciendis facere nemo!</p>
+                                <p><strong>You can download this PSD Mockup template in this portfolio sample item
+                                        at</strong> <a target="_blank"
+                                        href="https://creativemarket.com/muwa_one/707383-Workspace-Mockup-Set-5">Mockup</a>
+                                </p>
+                                <ul class="list-inline">
+                                    <li>Date: July 2016</li>
+                                    <li><b>Author:</b> <a target="_blank"
+                                            href="https://creativemarket.com/muwa_one">Best Pixels</a></li>
+                                    <li>Category: Graphic Design</li>
+                                </ul>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i
+                                        class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
